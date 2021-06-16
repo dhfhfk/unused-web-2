@@ -14,7 +14,11 @@ html {
 	-webkit-transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
-	margin: 10px
+	margin: 10px;
+	max-width: 380px;
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
 }
 
 .notfound {
@@ -22,7 +26,6 @@ html {
 	width: 100%;
 	line-height: 1.4;
 	text-align: left;
-	padding: 15px
 }
 
 .notfound .notfound-UC {
@@ -55,6 +58,7 @@ html {
 }
 
 .notfound h4 {
+	font-size: 15px;
 	margin-top: 10px;
 }
 
