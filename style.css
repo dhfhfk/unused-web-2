@@ -1,5 +1,6 @@
 * {
     font-family: 'Noto Sans KR', sans-serif;
+	letter-spacing: -0.5px; 
 	color: #bbbbbb;
 }
 
@@ -9,7 +10,7 @@ html {
 
 #notfound .notfound {
 	position: fixed;
-	margin: 0 auto;
+	margin: 100px auto;
 	left: 0;
 	right: 0;
 	max-width: 358px;
@@ -17,7 +18,6 @@ html {
 	flex-wrap: wrap;
 	word-break: keep-all;
 	width: 100%;
-	padding: 100px 10px 0 10px;
 }
 
 .notfound {
