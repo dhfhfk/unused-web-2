@@ -7,11 +7,6 @@ html {
 	background: #1e1e1e;
 }
 
-#notfound {
-	position: relative;
-	height: 100vh;
-}
-
 #notfound .notfound {
 	position: absolute;
 	left: 50%;
