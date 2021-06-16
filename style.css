@@ -1,0 +1,79 @@
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+	color: #bbbbbb;
+}
+
+html {
+	background: #1e1e1e;
+}
+
+#notfound {
+	position: relative;
+	height: 100vh;
+}
+
+#notfound .notfound {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	margin: 10px
+}
+
+.notfound {
+	max-width: 500px;
+	width: 100%;
+	line-height: 1.4;
+	text-align: left;
+	padding: 15px
+}
+
+.notfound .notfound-UC {
+	position: relative;
+	height: 120px
+}
+
+.notfound  h1 {
+	position: block;
+	font-size: 90px;
+	font-weight: 700;
+	margin: 0;
+	color: #ff7272;
+	-webkit-background-clip: text;
+	background-clip: text;
+	text-transform: uppercase;
+    line-height: 130px;
+    text-align: left;
+}
+
+.notfound h2 {
+	color: #ececec;
+    display: inline-block;
+	font-size: 33px;
+	font-weight: 700;
+	letter-spacing: 1px;
+    padding-top: 13px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.notfound h4 {
+	margin-top: 10px;
+}
+
+.notfound p {
+	font-size: 16px;
+	font-weight: 200;
+	margin-top: 0;
+	margin-bottom: 25px
+}
+
+.notfound a {
+	color: #ff6f68;
+	font-weight: 200;
+	text-decoration: none;
+	border-bottom: 1px dashed #ff6f68;
+	border-radius: 2px
+}
